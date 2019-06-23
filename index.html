@@ -161,25 +161,14 @@ http://www.templatemo.com/tm-512-moonlight
                 <div class="container-fluid">
                     </div>
                     <div class="col-md-6">
-                       <form name="submit-to-google-sheet">
-                       <input name="Name" type="text" placeholder="Your Name" required>
-                       <input name="E-mail" type="email" placeholder="Email" required>
-                       <input name="Subject" type="text" placeholder="Subject" required>
-                       <input name="Message" type="text" placeholder="Your Message" required>
-                       <button type="submit">Send</button>
-</form>
+                    <h3> Contact </h3>
+                    <p> E-mail : jcorgado@gmail.com
+                    <br>
+                    <br>
+                    Mobile : +63 912 447 9853
+                    <br>
+                    <br>
 
-<script>
-  const scriptURL = 'https://script.google.com/d/1J1a9JZyrwk9LGWM_tQjTDHjp3herINnPRGoN6VhRq9kq75jwCw-8pPJn/edit?uiv=2&mid=ACjPJvF9KGQJrn8y7B-lXh1BRcVYrvdONNdumh1cK529VBv0YATOVOhahki8voSToo9N5foHyR_j70zIxL3H0MwcR3_JAyotYfmoIllz__x_Qg6g2jcViEAWmtD6z2KYKWYNWz0sWaEnlP7vC8BMlchPOYNvmiq0xetWI3p1H7jLT-kdpocQFrKRquj8RA&splash=yes'
-  const form = document.forms['submit-to-google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
                     </div>
                 </div>
             </div>
@@ -236,14 +225,6 @@ http://www.templatemo.com/tm-512-moonlight
         };
     }
     </script>
-    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-
-<script>
-  const scriptURL = '<Shttps://script.google.com/d/1J1a9JZyrwk9LGWM_tQjTDHjp3herINnPRGoN6VhRq9kq75jwCw-8pPJn/edit?uiv=2&mid=ACjPJvF9KGQJrn8y7B-lXh1BRcVYrvdONNdumh1cK529VBv0YATOVOhahki8voSToo9N5foHyR_j70zIxL3H0MwcR3_JAyotYfmoIllz__x_Qg6g2jcViEAWmtD6z2KYKWYNWz0sWaEnlP7vC8BMlchPOYNvmiq0xetWI3p1H7jLT-kdpocQFrKRquj8RA&splash=yes>'
-  const form = document.forms['submit-to-google-sheet']
-  ...
-</script>
+   
 </body>
 </html>
